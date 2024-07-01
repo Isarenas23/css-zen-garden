@@ -1,0 +1,84 @@
+
+header{
+    margin-bottom:30px;
+}
+
+.intro{
+
+}
+
+h1{
+    background-image:linear-gradient(to bottom right, rgba(68, 187, 202, 0.5), rgba(207, 200, 28, 0.5));
+    border:5px solid #A23C26;
+    border-radius:6px;
+    background-clip:6px;
+    padding:5px 5px;
+    text-transform:uppercase;
+    text-decoration:underline;
+    text-align:center;
+    width:750px;
+    font-size:50px;
+    margin:auto;
+    border-radius:5px;
+    overflow:auto;
+}
+
+#css-zen-garden{
+    background:linear-gradient(to bottom right, rgba(68, 187, 202, 0.5), rgba(207, 200, 28, 0.5));
+    background-image:url("https://images.pexels.com/photos/785293/pexels-photo-785293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size:auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:40px;
+    line-height: normal;
+    overflow:auto;
+    display:block;
+    columns:auto 25em;
+    color:aliceblue;
+}
+
+.main{
+    width:70%;
+    z-index:2;
+    background-color: rgba(183, 227, 233, 0.25);
+}
+
+.text{
+    width:30%;
+}
+
+/*h2{
+    text-align:left;
+    font-size:35px;
+    font-style:bold;
+    text-decoration:underline;
+}
+
+h3{
+    font-size:35px;
+    font-style:bold;
+    text-align:center;
+}*/
+
+.sidebar{
+    border:5px solid #A23C26;
+    display:inline-block;
+    float:right;
+    width:35%;
+    height:200;
+    margin:0 20px;
+    position:sticky;
+    top:0px;
+    object-fit:contain;
+    background-image:linear-gradient(to bottom right, rgba(68, 187, 202, 0.5), rgba(207, 200, 28, 0.5));
+    color:aliceblue;
+}
+
+/*
+.main{
+
+.requirements{
+    float:right;
+    width:12%;
+    margin:0 20px;
+    top:0px;
+}*/
